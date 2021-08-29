@@ -7,6 +7,11 @@
 body {
     background-color: #d9dcd6;
 }
+
+p {
+    font-size: 16px;
+}
+
 /* Header formatting */
 header {
     padding: 20px;
@@ -42,17 +47,39 @@ a {
 }
 /* Header format end */
 
-p {
-    font-size: 16px;
-}
 
-.hero {
+/* hero section start*/
+.hero img {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+}
+
+/* Hero section end */
+
+/* Content section left DIV container begin*/
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+ }
+
+ .content img {
+     max-height: 200px;
+ }
+
+.optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+.optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .float-left {
@@ -64,13 +91,9 @@ p {
     float: right;
     margin-left: 25px;
 }
+/*Content section left Div container End */
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/*Content right benefits container Div begin */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -79,61 +102,22 @@ p {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefit-format {
+    background-color: #2589bd; 
+    color:#ffffff;
     margin-bottom: 32px;
-    color: #ffffff;
 }
 
-.benefit-format h3 {
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-format img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-.optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+ /* main content right container Div End */
 
 .footer {
     padding: 30px;
